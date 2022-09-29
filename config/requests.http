@@ -1,0 +1,28 @@
+###Recipes Index
+GET http://localhost:3000/recipes.json
+
+###Recipes Create
+POST http://localhost:3000/recipes.json
+Content-Type: application/json
+
+{
+  "name": "Pasta",
+  "ingredients": "noodles",
+  "instructions": "boil noodles for time required",
+  "prep_minutes": 0,
+  "cook_minutes": 7
+}
+
+###Recipes Show
+GET http://localhost:3000/recipes/1.json
+
+###Recipes Update
+PATCH http://localhost:3000/recipes/4.json
+Content-Type: application/json 
+
+{
+  "cook_time": 8
+}
+
+###Recipes Destroy
+DELETE http://localhost:3000/recipes/5.json
