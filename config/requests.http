@@ -21,7 +21,7 @@ PATCH http://localhost:3000/recipes/4.json
 Content-Type: application/json 
 
 {
-  "cook_time": 8
+  "cook_minutes": 8
 }
 
 ###Recipes Destroy
